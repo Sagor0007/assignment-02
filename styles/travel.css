@@ -45,7 +45,7 @@ body {
     color: var(--Dark-02, #424247);
     font-size: 18px;
     font-weight: 400;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
 }
 
 .items-container div a {
@@ -92,7 +92,7 @@ body {
     width: 830px;
     height: 70px;
     margin: 0 auto;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
     margin-top: 30px;
     background: rgba(255, 255, 255, 0.438);
     border-radius: 16px;
@@ -100,27 +100,20 @@ body {
 }
 
 .Where {
-    /* width: 173px;
-    height: 50px; */
     border-radius: 8px;
     background: #FFF;
     border: none;
-    padding: 20px 15px;
+    padding: 21px 15px;
 }
 
 .When {
-    /* width: 174px;
-    height: 52px; */
     border-radius: 8px;
     background: #FFF;
-    /* gap: 40px; */
     padding: 20px 68px;
     border: none;
 }
 
 .Select {
-    /* width: 174px;
-    height: 52px; */
     border-radius: 8px;
     background: #FFF;
     padding: 20px 50px;
@@ -128,13 +121,11 @@ body {
 }
 
 .button {
-    /* width: 174px;
-    height: 52px; */
     border-radius: 8px;
     border: none;
     background: #FF5400;
     color: #FFF;
-    padding: 20px 68px;
+    padding: 22px 68px;
 }
 
 
@@ -148,9 +139,9 @@ body {
     width: 1170px;
     margin: 0 auto;
     display: flex;
-    margin-top: 80px;
+    margin-top: 110px;
     gap: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .Rectangle-4 {
@@ -184,7 +175,6 @@ body {
 }
 
 .choose-2 {
-    /* width: 643px; */
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-weight: 400;
@@ -410,13 +400,15 @@ body {
     color: #FF5400;
     text-align: center;
     padding-top: 60px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 
 .bonus{
     color: #FFF;
     width: 900px;
-    padding: 0px 0px 0px 130px;
+    padding: 0px 0px 0px 80px;
 }
 
 
@@ -431,7 +423,7 @@ body {
     width: 1170px;
     margin: 0 auto;
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
     gap: 20px;
 }
 
@@ -559,40 +551,79 @@ body {
 
 @media screen and (max-width: 600px) {
 
-    body {
-        margin: 0px 0px 0px 200px;
-    }
-
-
     .header {
-        /* flex-direction: column; */
-        /* width: 100%; */
-        /* margin: 0 auto; */
+        width: 820px;
+        margin-left: 270px;
     }
 
 
-
-
-
-    .items-container {
-        /* flex-direction: column; */
+    .banner {
+        width: 700px;  
+        margin-left: 280px; 
     }
+
+    .Explore {
+        padding: 50px 0px 0px 0px;
+            
+    }
+
+    .input{
+        padding: 0px 112px 140px 0px;
+        width: 250px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .text {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 0px;
+    }
+   
+    .Where {  
+        padding: 21px 100px;
+        margin-bottom: 10px;
+    }
+    
+    .When { 
+        padding: 20px 152px;
+        margin-bottom: 10px;
+    }
+    
+    .Select {  
+        padding: 20px 134px;
+        margin-bottom: 10px;
+    }
+    
+    .button {    
+        padding: 15px 167px;
+    }
+    
+    
+    
+    
+
+
 
     .Our-Popular-Tours {
         flex-direction: column;
+        margin-left: 80px;
     }
 
     .Popular-Tours {
-        width: 70%;
+        width: 680px;
         justify-content: center;
-        margin: 0 auto;
+        margin: 20px 0px 0px 250px;
     }
 
     .Rectangle-4 {
         justify-content: center;
-        margin: 20px 0px 0px 305px;
+        margin: 20px 0px 0px 250px;
+        
     }
-
 
 
 
@@ -605,9 +636,10 @@ body {
 
     .image-2 {
         flex-direction: column;
-    
     }
-
+        
+        
+    
     .ima-3 {
         margin: 17px 500px 0px 400px;
         width: 400%;
@@ -647,21 +679,18 @@ body {
     }
 
     .card-1 {
-        width: 80%;
-        justify-content: center;
-        margin: 0 auto;
+        width: 700px;
+        margin-left: 300px;
     }
 
     .card-2 {
-        width: 80%;
-        justify-content: center;
-        margin: 0 auto;
+        width: 700px; 
+        margin-left: 300px;
     }
 
     .card-3 {
-        justify-content: center;
-        margin: 20px 0px 0px 115px;
-        width: 235%;
+        margin-left: 300px;
+        width: 700px;
     }
 
 
@@ -669,7 +698,8 @@ body {
 
 
     .bonus-container{
-        width: 600;
+        width: 1000px;
+        margin: 0px 0px 0px 140px;
     }
 
 
@@ -678,12 +708,14 @@ body {
 
     .Newsletter {
         flex-direction: column;
+        width: 700px;
+        margin-left: 240px;
     }
 
     .news {
-        width: 80%;
+        width: 700px;
         justify-content: center;
-        margin: 0px 0px 20px 140px;
+        margin: 0px 0px 20px 0px;
     }
 
     .news-2,
@@ -691,13 +723,16 @@ body {
     .name,
     .email,
     .Subscribe {
-        margin: 20px 0px 0px 280px;
+        margin: 20px 0px 0px 170px;
     }
 
     .relative {
         justify-content: center;
         width: 80%;
-        margin: 10px 0px 0px 140px;
+        margin: 10px 0px 0px 80px;
+    }
+    .save{
+        margin: 50px 0px 0px 0px;
     }
 
 
@@ -706,8 +741,8 @@ body {
 
     .last {
         justify-content: center;
-        width: 505%;
-        margin: 0px 200px 0px 00px;
+        width: 1000px;
+        margin-left: 180px;
     }
 
 
