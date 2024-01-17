@@ -694,16 +694,14 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 70px;
-        /* margin-left: 19; */
+        margin-left: 20px;  
     }
 
     .ima-2 {
         width: 335px;
         height: 175.393px;
         flex-shrink: 0;
-        /* margin-left: 19px; */
-        margin-left: 70px;
+        margin-left: 20px;
     }
 
 
@@ -712,14 +710,14 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 70px;
+        margin-left: 20px;
     }
 
     .ima-4 {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 35px;
+        margin-left: 10px;
     }
 
     .ima-5 {
@@ -727,7 +725,7 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 70px;
+        margin-left: 20px;
     }
 
     .image-3 {
@@ -739,14 +737,15 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 70px;
+        margin-left: 20px;
     }
 
     .ima-7 {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 70px;
+        margin-left: 20px;
+        
     }
 
 
