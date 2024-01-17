@@ -694,14 +694,14 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 20px;  
+        margin-left: 70px;  
     }
 
     .ima-2 {
         width: 335px;
         height: 175.393px;
         flex-shrink: 0;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
 
@@ -710,14 +710,14 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .ima-4 {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 10px;
+        margin-left: 35px;
     }
 
     .ima-5 {
@@ -725,7 +725,7 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .image-3 {
@@ -737,14 +737,14 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .ima-7 {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 20px;
+        margin-left: 70px;
         
     }
 
@@ -760,14 +760,14 @@ body {
         width: 335px;
         height: 289px;
         flex-shrink: 0;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .card-2 {
         width: 335px;
         height: 289px;
         flex-shrink: 0;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .card-3 {
@@ -820,7 +820,7 @@ body {
     .Newsletter {
         flex-direction: column;
         padding-top: 5px;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .news {
