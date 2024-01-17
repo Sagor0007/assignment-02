@@ -48,9 +48,10 @@ body {
     justify-content: space-between;
 }
 
-.home{
+.home {
     color: #FF5400;
 }
+
 
 
 
@@ -124,7 +125,7 @@ body {
     border: none;
     background: #FF5400;
     color: #FFF;
-    padding: 22px 68px;
+    padding: 21px 68px;
 }
 
 
@@ -153,6 +154,18 @@ body {
     font-weight: 800;
     margin-top: 0;
 }
+
+
+.button-2 {
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFF;
+    padding: 21px 68px;
+}
+
+
+
 
 
 
@@ -384,7 +397,7 @@ body {
 
 
 
-.bonus-container{
+.bonus-container {
     width: 1170px;
     height: 500px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.918) 0%, rgba(19, 19, 24, 0.607)), url('../Images/Group\ 40.png');
@@ -393,7 +406,7 @@ body {
     border-radius: 16px;
 }
 
-.awesome-experience{
+.awesome-experience {
     font-size: 36px;
     font-weight: 800;
     color: #FF5400;
@@ -404,7 +417,7 @@ body {
 }
 
 
-.bonus{
+.bonus {
     color: #FFF;
     width: 900px;
     padding: 0px 0px 0px 80px;
@@ -551,26 +564,37 @@ body {
 @media screen and (max-width: 600px) {
 
     .header {
-        width: 820px;
-        margin-left: 270px;
+        width: 375px;
+        height: 64px;
     }
+
+
 
 
     .banner {
-        width: 700px;  
-        margin-left: 280px; 
+        width: 335px;
+        height: 483px;
     }
 
     .Explore {
-        padding: 50px 0px 0px 0px;
-            
+        font-size: 22px;
+        font-weight: 800;
+        padding-top: 10px;
+
+
     }
 
-    .input{
-        padding: 0px 112px 140px 0px;
-        width: 250px;
-        height: 130px;
-        margin: 0 auto;
+    .input {
+        display: flex;
+        width: 200px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-right: 200px;
+        width: 303px;
+        height: 280px;
+
     }
 
     .text {
@@ -581,47 +605,64 @@ body {
         line-height: 26px;
         padding-bottom: 0px;
     }
-   
-    .Where {  
-        padding: 21px 100px;
-        margin-bottom: 10px;
+
+    .Where {
+        padding: 21px 70px;
+
+
     }
-    
-    .When { 
-        padding: 20px 152px;
-        margin-bottom: 10px;
+
+    .When {
+        padding: 20px 122px;
     }
-    
-    .Select {  
-        padding: 20px 134px;
-        margin-bottom: 10px;
+
+    .Select {
+        padding: 20px 104px;
     }
-    
-    .button {    
-        padding: 15px 167px;
+
+    .button {
+        padding: 15px 135px;
     }
-    
-    
-    
-    
+
+
+
+
 
 
 
     .Our-Popular-Tours {
         flex-direction: column;
-        margin-left: 80px;
+        width: 335px;
+
     }
 
     .Popular-Tours {
-        width: 680px;
-        justify-content: center;
-        margin: 20px 0px 0px 250px;
+        width: 335px;
+
     }
 
-    .Rectangle-4 {
-        justify-content: center;
-        margin: 20px 0px 0px 250px;
-        
+
+    .Rectangle {
+        width: 335px;
+        height: 342px;
+    }
+
+    .button-2 {
+        border-radius: 8px;
+        border: none;
+        background: #FF5400;
+        color: #FFF;
+        padding: 15px 38px;
+    }
+
+
+
+
+
+
+
+    .Choose-Your {
+        width: 309px;
     }
 
 
@@ -629,42 +670,69 @@ body {
 
     .image {
         flex-direction: column;
-        justify-content: center;
-        margin: 20px 0px 0px 305px;
     }
 
     .image-2 {
         flex-direction: column;
     }
-        
-        
-    
+
+
+
+    .ima-1 {
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 19px;
+    }
+
+    .ima-2 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+        margin-left: 19px;
+    }
+
+
+
     .ima-3 {
-        margin: 17px 500px 0px 400px;
-        width: 400%;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 19px;
     }
 
     .ima-4 {
-        margin: 0px 500px 0px 350px;
-        justify-content: center;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 10px;
     }
 
     .ima-5 {
-        margin: 0px 0px 0px 450px;
-        justify-content: center;
+
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 19px;
     }
 
     .image-3 {
         flex-direction: column;
-    
+
     }
 
     .ima-6 {
-        margin: 0px 500px 0px 350px;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 19px;
     }
 
     .ima-7 {
-        margin: 0px 0px 0px 250px;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        margin-left: 19px;
     }
 
 
@@ -673,33 +741,64 @@ body {
 
     .card {
         flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
     }
 
     .card-1 {
-        width: 700px;
-        margin-left: 300px;
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+        margin-left: 20px;
     }
 
     .card-2 {
-        width: 700px; 
-        margin-left: 300px;
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+        margin-left: 20px;
     }
 
     .card-3 {
-        margin-left: 300px;
-        width: 700px;
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+
+    }
+
+
+    .Amet {
+        width: 271px;
+    }
+
+    .Amet-2 {
+        width: 271px;
+    }
+
+    .Amet-3 {
+        width: 271px;
     }
 
 
 
 
 
-    .bonus-container{
-        width: 700px;
-        margin: 0px 0px 0px 280px;
+
+    .bonus-container {
+        width: 335px;
+        height: 483px;
     }
+
+    .awesome-experience {
+        padding-top: 10px;
+    }
+
+    .bonus {
+        padding-top: 0px;
+        width: 251px;
+        font-size: 14px;
+        padding-left: 50px;
+    }
+
+
 
 
 
@@ -707,14 +806,12 @@ body {
 
     .Newsletter {
         flex-direction: column;
-        width: 700px;
-        margin-left: 240px;
+        padding-top: 5px;
+        margin-left: 20px;
     }
 
     .news {
-        width: 700px;
-        justify-content: center;
-        margin: 0px 0px 20px 0px;
+        width: 335px;
     }
 
     .news-2,
@@ -722,16 +819,25 @@ body {
     .name,
     .email,
     .Subscribe {
-        margin: 20px 0px 0px 170px;
+        margin: 20px 0px 0px 23px;
+        padding-left: 0px;
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
     }
 
     .relative {
-        justify-content: center;
-        width: 80%;
-        margin: 10px 0px 0px 80px;
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
     }
-    .save{
-        margin: 50px 0px 0px 0px;
+
+    .save {
+        position: relative;
+        padding: 10px;
+        width: 214.023px;
+        height: 79.268px;
+        flex-shrink: 0;
     }
 
 
@@ -739,9 +845,13 @@ body {
 
 
     .last {
-        justify-content: center;
-        width: 1000px;
-        margin-left: 180px;
+        width: 375px;
+        height: 309px;
+        flex-shrink: 0;
+    }
+
+    .header-2 {
+        font-size: 22px;
     }
 
 
