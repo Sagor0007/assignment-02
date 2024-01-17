@@ -565,8 +565,20 @@ body {
 
     .header {
         width: 375px;
-        height: 64px;
     }
+
+
+
+    .items-container{
+        width: 0px;
+        flex-direction: column;
+        padding-left: 100px;
+        font-size: 100;
+    }  
+
+
+
+
 
 
 
@@ -682,14 +694,16 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 19px;
+        margin-left: 70px;
+        /* margin-left: 19; */
     }
 
     .ima-2 {
         width: 335px;
         height: 175.393px;
         flex-shrink: 0;
-        margin-left: 19px;
+        /* margin-left: 19px; */
+        margin-left: 70px;
     }
 
 
@@ -698,14 +712,14 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 19px;
+        margin-left: 70px;
     }
 
     .ima-4 {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 10px;
+        margin-left: 35px;
     }
 
     .ima-5 {
@@ -713,7 +727,7 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 19px;
+        margin-left: 70px;
     }
 
     .image-3 {
@@ -725,14 +739,14 @@ body {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 19px;
+        margin-left: 70px;
     }
 
     .ima-7 {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
-        margin-left: 19px;
+        margin-left: 70px;
     }
 
 
